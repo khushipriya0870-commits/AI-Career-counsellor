@@ -1,0 +1,28 @@
+# AI-Ca<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Career Counsellor - By Khushi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎓 AI Career Counsellor for CSE Students</h1>
+    <p>Same question, 5 different expert answers</p>
+
+    <input type="text" id="topic" placeholder="Ex: How to get internship in 2nd year?">
+
+    <select id="role">
+      <option value="teacher">Teacher</option>
+      <option value="hr">HR Professional</option>
+      <option value="planner">Event Planner</option>
+      <option value="advisor">Career Advisor</option>
+      <option value="manager">Project Manager</option>
+    </select>
+
+    <button onclick="generate()">Generate Answer</button>
+
+    <div id="output"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>reer-counsellor
